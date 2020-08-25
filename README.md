@@ -1,4 +1,4 @@
-# <div align="center">Predicting Passenger Survival on the Titanic</div>
+# <div align="center">Predicting Passenger Survival</div>
 
 ### <div align="center">Project Overview</div>
 Skills Demonstrated: *machine learning, exploratory data analysis*<br/>
