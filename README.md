@@ -6,5 +6,5 @@ Libraries and Programs: *Python, Jupyter Notebook*<br/>
 
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers survived the 1912 sinking of the Titanic.
 
-## Resources
+### <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
