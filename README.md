@@ -10,7 +10,9 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 #### Know Your Data
 I like to begin any analysis by learning some basics about the dataset. I want to know its shape (.shape), its columns (.columns), and their contents (.sample(), .describe(), .info(), .value_counts()). 
 
-**Figure 1.**
+**Figure 1.** Ten sample rows from the 'train' dataset.
+
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "'train' sample")
 
 Once I have a good understanding of the dataset, I like to visualize some of the distributions and relationships that I think might be informative. I like to use Seaborn (such as .distplot(), .barplot(), .boxplot(), and .scatterplot()) for straight-forward visualizations and Matplotlib.pyplot for visualizations that require more flexibility.
 
