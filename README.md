@@ -20,9 +20,9 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
 
-Sometimes, it is helpful to bin features that have too many values to visualize neatly using pd.cut(). With text analysis tools like regrex, this is especially useful for grouping and ordering unordered, non-numerical values.
+Sometimes, it is helpful to bin features that have too many values to visualize neatly using pd.cut(). With text analysis tools like regrex, this is especially useful for grouping and ordering unordered, non-numerical values.<br>
 
-**Figure 3.**
+**Figure 3.** Binning passenger cabin assignments by deck to see if deck level influenced survival.<br>
 
 #### 2. Clean Your Data
 Next, I like to clean and streamline my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features. 
