@@ -20,7 +20,7 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
 
-Sometimes, it is helpful to bin features that have too many values to visualize neatly using pd.cut(). With text analysis tools like regrex, this is especially useful for grouping and ordering unordered, non-numerical values.<br>
+Sometimes, I find it helpful to bin features (pd.cut() that have too many values to visualize neatly. With text analysis tools like regrex, this can be really useful for grouping and ordering unordered, non-numerical values.<br>
 
 **Figure 3.** Binning passenger cabin assignments by deck to see if deck level influenced survival.<br>
 
