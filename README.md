@@ -18,7 +18,7 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 **Figure 2.** A passenger's probability of surviving the wreck was non-random. It was strongly dependent on attributes such as age, sex, and economic class.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/ageclass_survivalrate.png "Influence of Age and Economic Class on Survival")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/sexclass_survivalrate.png "Influence of Sex and Economic Class on Survival")         ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/ageclass_survivalrate.png "Influence of Age and Economic Class on Survival")<br>
 
 #### Clean Your Data
 Next, I like to clean and streamline my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features. 
