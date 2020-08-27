@@ -22,7 +22,7 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 **Figure 3.** Survival varied by embarkment location, even when controlling for economic class. Why would this be?<br>
 
-![alt_text]("Did Embarkment Location Matter?")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
 
 #### 2. Clean Your Data
 Next, I like to clean and streamline my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features. 
