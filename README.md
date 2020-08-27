@@ -8,13 +8,13 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Know Your Data
-I like to begin any analysis by learning some basics about the dataset. I want to know its shape (.shape), its columns (.columns), and their contents (.sample(), .describe(), .info(), .value_counts()).<br> 
+I like to begin any analysis by learning some basics about the dataset (Figure 1). I want to know its shape (.shape), its columns (.columns), and their contents (.sample(), .describe(), .info(), .value_counts()).<br> 
 
 **Figure 1.** Ten sample rows from the 'train' dataset.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "'train' sample")<br>
 
-Once I have a good understanding of the dataset, I like to visualize some of the distributions and relationships that I think might be informative. I like to use Seaborn (such as .distplot(), .barplot(), .boxplot(), and .scatterplot()) for straight-forward visualizations and Matplotlib.pyplot for visualizations that require more flexibility. When I need to group data by several features, I like to use pivot tables (.pivot_table()).<br>
+Once I have a good understanding of the dataset, I like to visualize some of the distributions and relationships that I think might be informative (Figure 2, 3). I like to use Seaborn (such as .distplot(), .barplot(), .boxplot(), and .scatterplot()) for straight-forward visualizations and Matplotlib.pyplot for visualizations that require more flexibility. When I need to group data by several features, I like to use pivot tables (.pivot_table()).<br>
 
 **Figure 2.** A passenger's probability of surviving the wreck was non-random. It was strongly dependent on attributes such as age, sex, and economic class.<br>
 
