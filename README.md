@@ -20,18 +20,18 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
 
-Sometimes, I find it helpful to bin features (pd.cut() that have too many values to visualize neatly. With text analysis tools like regrex, this can be really useful for grouping and ordering unordered, non-numerical values.<br>
-
-**Figure 3.** Binning passenger cabin assignments by deck to see if deck level influenced survival.<br>
-
 #### 2. Clean Your Data
 Next, I like to clean and streamline my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features. 
 
-**Figure 4.**
+**Figure 3.**
 
 #### 3. Strategize for Modeling
 
 I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I like to identify important features in the dataset,  drop any data that won't benefit the model, and brainstorm a few promising modeling approaches.
+
+Sometimes, I find it helpful to bin features (pd.cut() that have too many values to visualize neatly. With text analysis tools like regrex, this can be really useful for grouping and ordering unordered, non-numerical values.<br>
+
+**Figure 4.** Binning passenger cabin assignments by deck to see if deck level influenced survival.<br>
 
 **Figure 5.**
 
@@ -39,3 +39,4 @@ I conclude Exploratory Data Analysis by bringing everything I've learned about t
 
 ### <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
+<sup>2</sup> https://www.encyclopedia-titanica.org/cabins.html <br/>
