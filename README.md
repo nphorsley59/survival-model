@@ -20,7 +20,7 @@ Once I have a good understanding of the dataset, I like to visualize some of the
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
 
-**Figure 3.** Survival varied by embarkment location, even when controlling for economic class. Why would this be?<br>
+**Figure 3.** Survival also varied by embarkment location, even when controlling for economic class. Why would this be?<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
 
