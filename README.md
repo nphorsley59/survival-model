@@ -16,7 +16,7 @@ I like to begin any analysis by learning some basics about the dataset (Figure 1
 
 Once I have a good understanding of the dataset, I like to visualize some of the distributions and relationships that I think might be informative (Figure 2, 3). I like to use Seaborn (such as .distplot(), .barplot(), .boxplot(), and .scatterplot()) for straight-forward visualizations and Matplotlib.pyplot for visualizations that require more flexibility. When I need to group data by several features, I like to use pivot tables (.pivot_table()).<br>
 
-**Figure 2.** A passenger's probability of surviving the wreck was non-random. It was strongly dependent on attributes such as age, sex, and economic class.<br>
+**Figure 2.** A passenger's probability of surviving the wreck was non-random. It appears to be dependent on attributes such as age, sex, and economic class.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
 
