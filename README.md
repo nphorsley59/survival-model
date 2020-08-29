@@ -31,9 +31,7 @@ Next, I like to clean and organize my dataset so it is easy to work with. This i
 
 ### 3. Strategize for Modeling
 
-I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I like to identify important features in the dataset,  drop any data that won't benefit the model, and brainstorm a few promising modeling approaches.
-
-Sometimes, I find it helpful to bin features (pd.cut() that have too many values to visualize neatly. With text analysis tools like regrex, this can be really useful for grouping and ordering unordered, non-numerical values.<br>
+I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I like to identify important features in the dataset, drop any data that won't benefit the model, and brainstorm a few promising modeling approaches.
 
 
 ## <div align="center">Modeling</div>
