@@ -33,7 +33,7 @@ Next, I like to clean and organize my dataset so it is easy to work with. This i
 
 I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I like to identify important features in the dataset, drop any data that won't benefit the model, and brainstorm a few promising modeling approaches.
 
-add
+me
 
 ## <div align="center">Modeling</div>
 
