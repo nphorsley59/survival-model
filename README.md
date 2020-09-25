@@ -8,7 +8,7 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Know Your Data
-I like to begin an analysis by learning some basics about the dataset (Figure 1). I want to know its shape (.shape), its column names (.columns), and its contents (.sample(), .describe(), .info(), .value_counts()).<br> 
+I begin an analysis by learning some basics about the dataset (Figure 1). I want to know its shape (.shape), its column names (.columns), and its contents (.sample(), .describe(), .info(), .value_counts()).<br> 
 
 **Figure 1.** Ten sample rows from the 'train' dataset.<br>
 
@@ -25,7 +25,7 @@ Once I have a good understanding of the dataset, I start to visualize some of th
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
 
 ### 2. Streamline Your Data
-Next, I like to clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
+Next, I clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
 
 For this dataset, I listed out six tasks:
 - Address Nulls
@@ -45,7 +45,7 @@ For this dataset, I listed out six tasks:
 
 ### 3. Strategize for Modeling
 
-I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I like to identify important features in the dataset, drop any data that won't benefit the model, and brainstorm a few promising modeling approaches.
+I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I create more advanced visuals, identify important variables, drop uninformative data, and brainstorm a few promising modeling approaches.
 
 ## <div align="center">Modeling</div>
 
