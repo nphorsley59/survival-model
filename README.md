@@ -25,7 +25,15 @@ Once I have a good understanding of the dataset, I start to visualize some of th
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
 
 ### 2. Streamline Your Data
-Next, I like to clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features. 
+Next, I like to clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
+
+For this dataset, I listed out six tasks:
+- Address Nulls
+- Split 'Cabin' into deck and room number
+- Split 'Name' into title and last name
+- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were alone or in a party
+- Rename, drop, and re-order columns
+- Convert ordered factor columns to numeric
 
 **Figure 4.**
 
