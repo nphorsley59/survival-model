@@ -41,7 +41,7 @@ For this dataset, I listed out six tasks:
 
 **Figure 5.** 'Title' was easy to pull from 'Name' but included a lot of low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
 
-![alt_text]("Splitting 'Name' into 'Title' and 'Last'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name' into 'Title' and 'Last'")<br>
 
 ### 3. Strategize for Modeling
 
