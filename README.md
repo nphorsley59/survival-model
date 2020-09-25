@@ -37,7 +37,7 @@ For this dataset, I listed out six tasks:
 
 **Figure 4.** I used the string matching libarary, re, to separate deck and room number in 'Cabin'.<br>
 
-![alt_text]("Splitting 'Cabin' into 'Deck' and 'Rm_Num'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/deck_split.png "Splitting 'Cabin' into 'Deck' and 'Rm_Num'")<br>
 
 **Figure 5.** 'Title' was easy to pull from 'Name' but included a lot of low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
 
