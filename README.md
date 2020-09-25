@@ -33,9 +33,15 @@ For this dataset, I listed out six tasks:
 - Split 'Name' into title and last name
 - Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were alone or in a party
 - Rename, drop, and re-order columns
-- Convert ordered factor columns to numeric
+- Convert ordered factor columns to numeric<br>
 
-**Figure 4.**
+**Figure 4.** I used the string matching libarary, re, to separate deck and room number in 'Cabin'.<br>
+
+![alt_text]("Splitting 'Cabin' into 'Deck' and 'Rm_Num'")<br>
+
+**Figure 5.** 'Title' was easy to pull from 'Name' but included a lot of low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
+
+![alt_text]("Splitting 'Name' into 'Title' and 'Last'")<br>
 
 ### 3. Strategize for Modeling
 
