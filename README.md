@@ -45,7 +45,7 @@ For this dataset, I listed out six tasks:
 
 ### 3. Strategize for Modeling
 
-name
+is
 
 I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I create more advanced visuals, identify important variables, drop uninformative data, and brainstorm a few promising modeling approaches.
 
