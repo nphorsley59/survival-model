@@ -1,4 +1,4 @@
-# <div align="center">Predicting Passenger Survival</div>
+# <div align="center">Classifying Passenger Survival</div>
 
 ## <div align="center">Project Overview</div>
 Skills Demonstrated: *random forest, exploratory data analysis, feature engineering, text analysis*<br/>
