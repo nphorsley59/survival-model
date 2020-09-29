@@ -7,7 +7,7 @@ Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, numpy, r
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Economic Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
-### 1. Know Your Data
+### 1. Data Structure
 I begin an analysis by learning some basics about the dataset (Figure 1). I want to know its shape (.shape), its column names (.columns), and its contents (.sample(), .describe(), .info(), .value_counts()).<br> 
 
 **Figure 1.** Ten sample rows from the 'train' dataset.<br>
@@ -24,7 +24,7 @@ Once I have a good understanding of the dataset, I start to visualize some of th
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
 
-### 2. Streamline Your Data
+### 2. Clean Dataset
 Next, I clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
 
 For this dataset, I listed out six tasks:
