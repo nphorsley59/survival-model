@@ -8,7 +8,7 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Explore the Structure
-I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape), its column names (columns), and its contents (sample(), describe(), info(), value_counts()).<br>
+I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape()), its column names (columns()), and its contents (sample(), describe(), info()).<br>
 
 **Figure 1.** Ten sample rows from the training set.<br>
 
