@@ -7,8 +7,8 @@ Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, numpy, r
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Economic Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
-### 1. Data Structure
-I began this analysis by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape), its column names (columns), and its contents (sample(), describe(), info(), value_counts()).<br>
+### 1. Explore the Structure
+I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape), its column names (columns), and its contents (sample(), describe(), info(), value_counts()).<br>
 
 **Figure 1.** Ten sample rows from the training set.<br>
 
@@ -20,17 +20,7 @@ Next, I inspected the distribution of each feature. For numerical features, I ca
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/dist_classandfare.jpg "KDE for 'Fare'")<br>
 
-
-
-**Figure 2.** A passenger's probability of surviving the wreck was non-random. It appears to be dependent on attributes such as age, sex, and economic class.<br>
-
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/agesexclass_survivalrate.png "Attributes Predicting Survival")<br>
-
-**Figure 3.** Survival also varied by embarkment location, even when controlling for economic class. Why would this be?<br>
-
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/embarkment_ptable.png "Did Embarkment Location Matter?")<br>
-
-### 2. Clean Dataset
+### 2. Clean the Dataset
 Next, I clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
 
 For this dataset, I listed out six tasks:
