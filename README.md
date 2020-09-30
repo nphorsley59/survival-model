@@ -12,13 +12,13 @@ I began by learning some basics about the dataset (Figure 1). I wanted to know i
 
 **Figure 1.** Ten sample rows from the training set.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "'train' sample")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "Data Sample")<br>
 
 Next, I inspected the distribution of each feature. For numerical features, I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()). For categorical features, I inspected distribution using counts and proportions (value_counts()).<br>
 
 **Figure 2.** A kernel density estimation of the distribution of passenger fare and a pie chart of the distribution of passenger class.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/dist_classandfare.jpg "KDE for 'Fare'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/dist_classandfare.jpg "Feature Distributions")<br>
 
 ### 2. Clean and Organize
 I identified several issues while exploring the dataset. I prefer to clean these up before exploring relationships between variables.<br>
@@ -32,11 +32,15 @@ For this dataset, I needed to:
 
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/deck_split.png "Splitting 'Cabin' into 'Deck' and 'Rm_Num'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/deck_split.png "Splitting 'Cabin'")<br>
 
 **Figure 4.** 'Title' was easy to pull from 'Name' but included several low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name' into 'Title' and 'Last'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name'")<br>
+
+**Figure 5.** I counted ticket replicates to itentify non-familial groups and added 'ParCh' to 'SibSp' to identify familial groups.<br>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_code.jpg "Engineering 'Connections'")<br>
 
 ### 3. Strategize for Modeling
 
