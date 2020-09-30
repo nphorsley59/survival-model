@@ -24,7 +24,7 @@ Similarly, I inspected the distribution of each categorical feature (value_count
 
 **Figure 3.** A pie chart showing the distribution of passenger classes.<br>
 
-![alt_text](link "Pie Chart for 'Class'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/pie_class.jpg "Pie Chart for 'Class'")<br>
 
 
 
