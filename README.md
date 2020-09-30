@@ -1,7 +1,7 @@
 # <div align="center">Classifying Passenger Survival</div>
 
 ## <div align="center">Table of Contents</div>
----- [Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview) ---------------- [Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis) ----------------------------- [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling) -------------------------- [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources) --------
+---- [Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview) ---------------- [Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis) ----------------------------- [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling) --------------------------- [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources) --------
 
 ## <div align="center">Project Overview</div>
 Skills Demonstrated: *logistic regression, random forest, exploratory data analysis, feature engineering, text analysis*<br/>
