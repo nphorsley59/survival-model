@@ -8,19 +8,23 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Data Structure
-#### Descriptive Functions
 I began this analysis by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape), its column names (columns), and its contents (sample(), describe(), info(), value_counts()).<br>
 
-**Figure 1.** Ten sample rows from the 'train' dataset.<br>
+**Figure 1.** Ten sample rows from the training set.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "'train' sample")<br>
 
-#### Numerical Features
 Next, I inspected the distribution of each numerical feature. I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()) and constructed simple visualizations using Seaborn (boxplot(), distplot(), kdeplot()).<br>
 
-**Figure 2.** Description <br>
+**Figure 2.** A kernel density estimation of the distribution of passenger fare.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/kde_fare.png "KDE for 'Fare'")<br>
+
+Similarly, I inspected the distribution of each categorical feature (value_counts()) and constructed simple visualizations using Matplotlib (pie()).<br>
+
+**Figure 3.** A pie chart showing the distribution of passenger classes.<br>
+
+![alt_text](link "Pie Chart for 'Class'")<br>
 
 
 
