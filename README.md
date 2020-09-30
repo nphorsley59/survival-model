@@ -14,17 +14,11 @@ I began this analysis by learning some basics about the dataset (Figure 1). I wa
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "'train' sample")<br>
 
-Next, I inspected the distribution of each numerical feature. I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()) and constructed simple visualizations using Seaborn (boxplot(), distplot(), kdeplot()).<br>
+Next, I inspected the distribution of each feature. For numerical features, I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()). For categorical features, I inspected distribution using counts and proportions (value_counts()).<br>
 
-**Figure 2.** A kernel density estimation of the distribution of passenger fare.<br>
+**Figure 2.** A kernel density estimation of the distribution of passenger fare and a pie chart of the distribution of passenger class.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/kde_fare.png "KDE for 'Fare'")<br>
-
-Similarly, I inspected the distribution of each categorical feature (value_counts()) and constructed simple visualizations using Matplotlib (pie()).<br>
-
-**Figure 3.** A pie chart showing the distribution of passenger classes.<br>
-
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/pie_class.jpg "Pie Chart for 'Class'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/dist_classandfare.jpg "KDE for 'Fare'")<br>
 
 
 
