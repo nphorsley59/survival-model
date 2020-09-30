@@ -59,3 +59,5 @@ I conclude Exploratory Data Analysis by bringing everything I've learned about t
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
 <sup>2</sup> https://www.encyclopedia-titanica.org/cabins.html <br/>
+<sup>3</sup> https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/ <br>
+<sup>4</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
