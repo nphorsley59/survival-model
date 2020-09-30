@@ -10,7 +10,7 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 ### 1. Explore the Structure
 I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape()), its column names (columns()), and its contents (sample(), describe(), info()).<br>
 
-**Figure 1.** Ten sample rows from the training set.<br>
+**Figure 1.** A sample of ten rows from the training set.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/data_sample.png "Data Sample")<br>
 
