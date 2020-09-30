@@ -20,7 +20,7 @@ Next, I inspected the distribution of each numerical feature. I calculated locat
 
 **Figure 2.** Description <br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/kde_fare.png "KDE for 'Fare')<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/kde_fare.png "KDE for 'Fare'")<br>
 
 
 
