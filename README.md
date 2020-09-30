@@ -20,22 +20,21 @@ Next, I inspected the distribution of each feature. For numerical features, I ca
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/dist_classandfare.jpg "KDE for 'Fare'")<br>
 
-### 2. Clean the Dataset
-Next, I clean and organize my dataset so it is easy to work with. This includes tasks like dealing with NULL values, checking for errors, transforming skewed features, renaming unintuitive columns or values, removing outliers, and engineering new features.<br>
+### 2. Clean and Organize
+I identified several issues while exploring the dataset. I prefer to clean these up before exploring relationships between variables.<br>
 
-For this dataset, I listed out six tasks:
-- Address Nulls
+For this dataset, I needed to:
+- Address NaNs
 - Split 'Cabin' into deck and room number
 - Split 'Name' into title and last name
-- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were alone or in a party
-- Rename, drop, and re-order columns
-- Convert ordered factor columns to numeric<br>
+- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group
+- Streamline (drop/rename columns, change dtypes, etc)<br>
 
-**Figure 4.** I used the string matching libarary, re, to separate deck and room number in 'Cabin'.<br>
+**Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/deck_split.png "Splitting 'Cabin' into 'Deck' and 'Rm_Num'")<br>
 
-**Figure 5.** 'Title' was easy to pull from 'Name' but included a lot of low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
+**Figure 4.** 'Title' was easy to pull from 'Name' but included several low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name' into 'Title' and 'Last'")<br>
 
