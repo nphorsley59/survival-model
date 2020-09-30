@@ -1,10 +1,14 @@
 # <div align="center">Classifying Passenger Survival</div>
 
+## <div align="center">Table of Contents</div>
+
 ## <div align="center">Project Overview</div>
 Skills Demonstrated: *logistic regression, random forest, exploratory data analysis, feature engineering, text analysis*<br/>
 Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, numpy, regex, seaborn*<br/>
 
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Economic Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
+
+Points of Interest:<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Explore the Structure
