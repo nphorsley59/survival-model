@@ -12,7 +12,7 @@ I began by learning some basics about the dataset (Figure 1). I wanted to know i
 
 **Figure 1.** Ten sample rows from the training set.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/train_sample.png "Data Sample")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/data_sample.png "Data Sample")<br>
 
 Next, I inspected the distribution of each feature. For numerical features, I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()). For categorical features, I inspected distribution using counts and proportions (value_counts()).<br>
 
