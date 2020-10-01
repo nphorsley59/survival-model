@@ -48,7 +48,7 @@ For this dataset, I needed to:
 
 **Figure 5.** I counted ticket replicates to itentify non-familial groups and added 'ParCh' to 'SibSp' to identify familial groups.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_code.jpg "Engineering 'Connections'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
 ### 3. Strategize for Modeling
 
