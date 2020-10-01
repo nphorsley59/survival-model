@@ -22,7 +22,7 @@ I began by learning some basics about the dataset (Figure 1). I wanted to know i
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/data_sample.png "Data Sample")<br>
 
-Next, I inspected the distribution of each feature. For numerical features, I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()). For categorical features, I inspected distribution using counts and proportions (value_counts()).<br>
+Next, I inspected the distribution of each feature<sup>3</sup>. For numerical features, I calculated location (mean(), trimmed_mean(), median()) and variation (std(), mad()). For categorical features, I inspected distribution using counts and proportions (value_counts()).<br>
 
 **Figure 2.** A kernel density estimation of the distribution of passenger fare and a pie chart of the distribution of passenger class.<br>
 
@@ -51,9 +51,11 @@ For this dataset, I needed to:<br>
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
 ### 3. Plot Relationships
-I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual relationships, I constructed a correlation matrix and visualized it as a heatmap.<br>
+I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual features, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
 ## <div align="center">Modeling</div>
+
+<sup>4</sup>
 
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
