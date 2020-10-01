@@ -42,7 +42,7 @@ For this dataset, I needed to:
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_split.png "Splitting 'Cabin'")<br>
 
-**Figure 4.** 'Title' was easy to pull from 'Name' but included several low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
+**Figure 4.** I parsed 'Title' from 'Name' and got an abundance of low frequency results ("Col", "Jonkheer", "Rev"). To simplify this feature, I only kept values that occurred more than 10 times and changed every other value to "Other".<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name'")<br>
 
