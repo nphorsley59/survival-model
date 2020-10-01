@@ -40,7 +40,7 @@ For this dataset, I needed to:
 
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/deck_split.png "Splitting 'Cabin'")<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_split.png "Splitting 'Cabin'")<br>
 
 **Figure 4.** 'Title' was easy to pull from 'Name' but included several low frequency results ("Col", "Jonkheer", "Rev"). I reduced 'Title' to values that occurred more than 10 times and changed all outliers to "Other".<br>
 
