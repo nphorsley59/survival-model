@@ -4,7 +4,7 @@
 * [Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview)
 * [Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis)
 * [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)
-* [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)
+* [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
 Skills Demonstrated: *logistic regression, random forest, exploratory data analysis, feature engineering, text analysis*<br/>
@@ -15,7 +15,7 @@ Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created
 Points of Interest:<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
-### 1. Explore the Structure
+### 1. Explore Data Structure
 I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape()), its column names (columns()), and its contents (sample(), describe(), info()).<br>
 
 **Figure 1.** A sample of ten rows from the training set.<br>
@@ -31,11 +31,11 @@ Next, I inspected the distribution of each feature. For numerical features, I ca
 ### 2. Clean and Organize
 I identified several issues while exploring the dataset. I prefer to clean these up before exploring relationships between variables.<br>
 
-For this dataset, I needed to:
-- Address NaNs
-- Split 'Cabin' into deck and room number
-- Split 'Name' into title and last name
-- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group
+For this dataset, I needed to:<br>
+- Address NaNs<br>
+- Split 'Cabin' into deck and room number<br>
+- Split 'Name' into title and last name<br>
+- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br><br>
 - Streamline (drop/rename columns, change dtypes, etc)<br>
 
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
@@ -50,9 +50,8 @@ For this dataset, I needed to:
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
-### 3. Strategize for Modeling
-
-I conclude Exploratory Data Analysis by bringing everything I've learned about the dataset together to prepare for modeling. I create more advanced visuals, identify important variables, drop uninformative data, and brainstorm a few promising modeling approaches.
+### 3. Plot Relationships
+I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual relationships, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
 ## <div align="center">Modeling</div>
 
