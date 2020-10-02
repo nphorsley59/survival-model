@@ -53,6 +53,10 @@ For this dataset, I needed to:<br>
 ### 3. Plot Relationships
 I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual features, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
+**Figure 6.** Correlation coefficients for linear relationships between features.<br>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap.png "Correlation Heatmap")
+
 ## <div align="center">Modeling</div>
 
 <sup>4</sup>
