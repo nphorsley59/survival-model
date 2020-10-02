@@ -61,7 +61,7 @@ Several features were strongly correlated (e.g. GroupSize, FamilySize, and IsAlo
 
 **Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck.png "Deck and Cabin Assignments")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck2.png "Deck and Cabin Assignments")
 
 A passenger's cabin assignment had little impact on their fate. Considering 'Cabin' and 'Deck' were unknown for ~80% of passengers in the dataset, I decided to drop these features from the analysis.<br>
 
