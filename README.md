@@ -36,6 +36,7 @@ For this dataset, I needed to:<br>
 - Split 'Cabin' into deck and room number<br>
 - Split 'Name' into title and last name<br>
 - Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br>
+- Address Skew and Outliers in 'Fare'
 - Streamline (drop/rename columns, change dtypes, etc)<br>
 
 #### 2.1. Complete Columns with NaNs
