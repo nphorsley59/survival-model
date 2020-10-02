@@ -59,7 +59,11 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 Several features were strongly correlated (e.g. GroupSize, FamilySize, and IsAlone). I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
 
+A passenger's cabin assignment had little impact on their fate. Considering 'Cabin' and 'Deck' were unknown for ~80% of passengers in the dataset, I decided to drop these features from the analysis.<br>
 
+**Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.
+
+![alt_text]()
 
 ## <div align="center">Modeling</div>
 
