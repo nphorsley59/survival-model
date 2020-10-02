@@ -86,20 +86,17 @@ I found that being alone or being in a group of more than four seemed to decreas
 #### 3.2. Complete 'Age'
 
 #### 3.3. Address 'Fare' Distribution
-I noted two oddities in the distribution of 'Fare':<br>
+While examining 'Fare' and how it related to other features, I noted two problems:<br>
 - A handful of passengers had a ticket fare of $0.00<br>
 - Passengers who shared tickets paid more than the average fare for their class<br>
 
-**Figure 7.** Fare was positively related to 'Connections', even when controlling for 'Class'.<br>
+**Figure 11.** Fare was positively related to 'Connections', even when controlling for 'Class'.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/fare_connections_unadj.png "Influence of Connections on Fare")<br>
 
-From this, I concluded that the fare for shared tickets must be a lump sum rather than an individual fare. I addressed this by dividing 'Fare' by 'GroupSize'. I also concluded that passengers with a ticket fare of $0.00 were crew members. They were all middle-aged males and almost all of them died. I addressed this by assigning them a new 'Class'. 'Fare' was still right-skewed after these adjustments, so I applied a log(x+1) transformation.<br>
-
+From this, I concluded that the fare for shared tickets must be a lump sum rather than an individual fare. I addressed this by dividing 'Fare' by 'GroupSize'. I also concluded that passengers with a ticket fare of $0.00 were crew members. They were all middle-aged males and almost all of them died. I addressed this by assigning them a new 'Class'.<br>
 
 #### 3.4. Multivariate Relationships
-
-
 
 
 ## <div align="center">Pre-processing</div>
