@@ -69,6 +69,8 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_plot.png "Party Info Plot")<br>
 
+Being alone and being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
+
 ## <div align="center">Modeling</div>
 
 <sup>4</sup>
