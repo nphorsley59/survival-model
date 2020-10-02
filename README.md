@@ -61,6 +61,17 @@ I mapped NaNs and completed columns that had relatively straight-forward solutio
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
+#### 2.5. Address 'Fare' Distribution
+I noted two oddities in the distribution of 'Fare':<br>
+- A handful of passengers had a ticket fare of $0.00<br>
+- Passengers who shared tickets paid more than the average fare for their class<br>
+
+**Figure 7.** Fare was positively correlated with 'Connections', even when controlling for 'Class'.<br>
+
+![alt_text]()<br>
+
+From this, I concluded that the fare for shared tickets must be a lump sum rather than an individual fare. I addressed this by dividing 'Fare' by 'GroupSize'. I also concluded that passengers with a ticket fare of $0.00 were crew members. They were all middle-aged males and almost all of them died. I addressed this by assigning them a new 'Class'. 'Fare' was still right-skewed after these adjustments, so I applied a log(x+1) transformation.<br>
+
 ### 3. Examine Relationships
 I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual features, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
