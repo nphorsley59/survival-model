@@ -57,6 +57,10 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")
 
+Several features were strongly correlated (e.g. GroupSize, FamilySize, and IsAlone). I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
+
+
+
 ## <div align="center">Modeling</div>
 
 <sup>4</sup>
