@@ -88,7 +88,7 @@ Passenger age was unknown for ~20% of the dataset. I grouped passengers with kno
 
 **Figure 10.** The loop used to complete 'Age'.<br>
 
-![alt_text]()<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_code.png "Completing 'Age'")<br>
 
 #### 3.3. Address 'Fare' Distribution
 While examining 'Fare' and how it related to other features, I noted two problems:<br>
