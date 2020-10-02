@@ -108,7 +108,7 @@ I looked at a lot of multivariate relationships and included two figures that I 
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_sex.png "Age, Sex, Survival")<br>
 
-**Figure 13.** Title and class had a strong influence on passenger survival.
+**Figure 13.** The influence of title - a rough estimate of age and sex - and class on passenger survival.
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/title_class.png "Title, Class, Survival")<br>
 
