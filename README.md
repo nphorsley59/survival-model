@@ -50,7 +50,7 @@ For this dataset, I needed to:<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
-### 3. Plot Relationships
+### 3. Examine Relationships
 I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual features, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
 **Figure 6.** Correlation coefficients for linear relationships between features.<br>
