@@ -57,6 +57,7 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")<br>
 
+#### Collinearity
 Several features were strongly correlated, introducing collinearity into the model. I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
 
 **Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.<br>
@@ -69,7 +70,15 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_plot.png "Party Info Plot")<br>
 
-Being alone and being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
+I found that being alone or being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
+
+#### Skew and NaNs
+
+
+#### Multivariate Relationships
+
+
+## <div align="center">Pre-processing</div>
 
 ## <div align="center">Modeling</div>
 
