@@ -63,7 +63,7 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 
 **Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.
 
-![alt_text]()
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck.png "Deck and Cabin Assignments")
 
 ## <div align="center">Modeling</div>
 
