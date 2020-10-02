@@ -36,7 +36,7 @@ For this dataset, I needed to:<br>
 - Split 'Cabin' into deck and room number<br>
 - Split 'Name' into title and last name<br>
 - Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br>
-- Apply log(x+1) transformation to 'Fare' to fix right-skew
+- Apply log(x+1) transformation to 'Fare' to fix right-skew<br>
 - Streamline (drop/rename columns, change dtypes, etc)<br>
 
 #### 2.1. Complete Columns with NaNs
@@ -85,6 +85,10 @@ I found that being alone or being in a group of more than four seemed to decreas
 
 #### 3.2. Complete 'Age'
 Passenger age was unknown for ~20% of the dataset. I grouped passengers with known age by 'Sex', 'Title', and 'Class' - features correlated with 'Age' - and calculated the median age for each combination. Then, to complete 'Age', I filled all passenger records of unknown age with the appropriate group median (matching 'Sex', 'Title' and 'Class').
+
+**Figure 10.** The loop used to complete 'Age'.<br>
+
+![alt_text]()<br>
 
 #### 3.3. Address 'Fare' Distribution
 While examining 'Fare' and how it related to other features, I noted two problems:<br>
