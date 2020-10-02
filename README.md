@@ -38,14 +38,19 @@ For this dataset, I needed to:<br>
 - Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br><br>
 - Streamline (drop/rename columns, change dtypes, etc)<br>
 
+#### 2.1. Complete Columns with NaNs
+
+#### 2.2. Split 'Cabin'
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_split.png "Splitting 'Cabin'")<br>
 
+#### 2.3. Split 'Name'
 **Figure 4.** I parsed 'Title' and 'Last' from 'Name' and reduced low frequency 'Title' results ("Col", "Jonkheer", "Rev") to "Other".<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name'")<br>
 
+#### 2.4. Engineer 'GroupSize' and 'FamilySize'
 **Figure 5.** I counted ticket replicates to itentify non-familial groups and added 'ParCh' to 'SibSp' to identify familial groups.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
@@ -57,7 +62,7 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")<br>
 
-#### Collinearity
+#### 3.1. Collinearity
 Several features were strongly correlated, introducing collinearity into the model. I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
 
 **Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.<br>
@@ -72,10 +77,10 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 
 I found that being alone or being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
 
-#### Skew and NaNs
+#### 3.2. Skew and NaNs
 
 
-#### Multivariate Relationships
+#### 3.3. Multivariate Relationships
 
 
 ## <div align="center">Pre-processing</div>
