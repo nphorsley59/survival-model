@@ -43,7 +43,7 @@ I mapped NaNs and completed columns that had relatively straight-forward solutio
 
 **Figure 3.** Tables showing NaNs by feature for the 'train' and 'test' datasets.<br>
 
-![alt_text]()
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/null_tables.png "NULL value Tables")
 
 #### 2.2. Split 'Cabin'
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
