@@ -55,7 +55,7 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 **Figure 6.** Correlation coefficients for linear relationships between features.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap.png "Correlation Heatmap")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")
 
 ## <div align="center">Modeling</div>
 
