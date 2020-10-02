@@ -43,40 +43,40 @@ I mapped NaNs and completed columns that had relatively straight-forward solutio
 
 **Figure 3.** Tables showing NaNs by feature for the 'train' and 'test' datasets.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/null_tables.png "NULL value Tables")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/null_tables.png "NULL value Tables")<br>
 
 #### 2.2. Split 'Cabin'
-**Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
+**Figure 4.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_split.png "Splitting 'Cabin'")<br>
 
 #### 2.3. Split 'Name'
-**Figure 4.** I parsed 'Title' and 'Last' from 'Name' and reduced low frequency 'Title' results ("Col", "Jonkheer", "Rev") to "Other".<br>
+**Figure 5.** I parsed 'Title' and 'Last' from 'Name' and reduced low frequency 'Title' results ("Col", "Jonkheer", "Rev") to "Other".<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/name_split.png "Splitting 'Name'")<br>
 
 #### 2.4. Engineer 'GroupSize' and 'FamilySize'
-**Figure 5.** I counted ticket replicates to itentify non-familial groups and added 'ParCh' to 'SibSp' to identify familial groups.<br>
+**Figure 6.** I counted ticket replicates to itentify non-familial groups and added 'ParCh' to 'SibSp' to identify familial groups.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_split.png "Engineering 'Connections'")<br>
 
 ### 3. Examine Relationships
 I concluded by exploring how features were related to the target, 'Survived', and to each other. Before looking at individual features, I constructed a correlation matrix and visualized it as a heatmap.<br>
 
-**Figure 6.** Correlation coefficients for linear relationships between features.<br>
+**Figure 7.** Correlation coefficients for linear relationships between features.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")<br>
 
 #### 3.1. Collinearity
 Several features were strongly correlated, introducing collinearity into the model. I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
 
-**Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.<br>
+**Figure 8.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck2.png "Deck and Cabin Assignments")<br>
 
 A passenger's cabin assignment had little impact on their fate. Considering 'Cabin' and 'Deck' were unknown for ~80% of passengers in the dataset, I decided to drop these features from the analysis.<br>
 
-**Figure 8.** Survival rate based on various criteria describing a passengers connections on-board.<br>
+**Figure 9.** Survival rate based on various criteria describing a passengers connections on-board.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_plot.png "Party Info Plot")<br>
 
