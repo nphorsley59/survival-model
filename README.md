@@ -84,7 +84,7 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 I found that being alone or being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
 
 #### 3.2. Complete 'Age'
-Passenger age was unknown for ~20% of the dataset. I grouped passengers with known age by 'Sex', 'Title', and 'Class' - features correlated with 'Age' - and calculated the median age for each combination. Then, to complete 'Age', I filled all passenger records of unknown age with the appropriate group median (matching 'Sex', 'Title' and 'Class').
+Passenger age was unknown for ~20% of the dataset. I grouped passengers with known age by 'Sex', 'Title', and 'Class' - features correlated with 'Age' - and calculated the median age for each combination. Then, to complete 'Age', I filled all passenger records of unknown age with the appropriate group median (matching 'Sex', 'Title' and 'Class'). I got this idea from a Kaggle notebook by Manav Sehgal<sup>4</sup>.
 
 **Figure 10.** The loop used to complete 'Age'.<br>
 
@@ -108,10 +108,11 @@ From this, I concluded that the fare for shared tickets must be a lump sum rathe
 
 ## <div align="center">Modeling</div>
 
-<sup>4</sup>
+<sup>5</sup>
 
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
 <sup>2</sup> https://www.encyclopedia-titanica.org/cabins.html <br/>
 <sup>3</sup> https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/ <br>
-<sup>4</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+<sup>4</sup> https://www.kaggle.com/startupsci <br>
+<sup>5</sup> https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
