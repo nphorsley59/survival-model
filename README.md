@@ -35,10 +35,15 @@ For this dataset, I needed to:<br>
 - Address NaNs<br>
 - Split 'Cabin' into deck and room number<br>
 - Split 'Name' into title and last name<br>
-- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br><br>
+- Use 'Ticket', 'ParCh', and 'SibSp' to determine if passengers were traveling alone or in a group<br>
 - Streamline (drop/rename columns, change dtypes, etc)<br>
 
 #### 2.1. Complete Columns with NaNs
+I mapped NaNs and completed columns that had relatively straight-forward solutions. I assigned a placeholder value for NaNs in 'Cabin' and 'Age' until I could address them properly.<br>
+
+**Figure 3.** Tables showing NaNs by feature for the 'train' and 'test' datasets.<br>
+
+![alt_text]()
 
 #### 2.2. Split 'Cabin'
 **Figure 3.** I used the string matching libarary, re, to parse deck and cabin number from 'Cabin'.<br>
