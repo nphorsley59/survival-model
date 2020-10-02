@@ -115,18 +115,28 @@ I looked at a lot of multivariate relationships and included two figures that I 
 I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
 
 ## <div align="center">Modeling</div>
-Once the dataset had been thoroughly explored and cleaned, I began modeling. My goal was to build a model that could accurately predict the fate of a passenger on the Titanic. Obviously there were some unquantified forces at work in the real event, so I set a goal of 80% model accuracy.<br>
+Once the dataset had been thoroughly explored and cleaned, I began modeling. My goal was to build a model that could accurately predict the fate of a passenger on the Titanic. Obviously there were some unquantified forces at work in the real event, so I set a goal of 80% model accuracy. I used logistic regression, SVM, KNN, and random forest algorithms<sup>5</sup>. Model optimization (grid search, boosting, stacking, etc.) is a work in progress.<br>
 
 ### 1. Pre-processing
 I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
 
 **Figure 14.** A sample from the streamlined 'train' set, pre-scaling.<br>
 
-![alt_text]()<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/final_dataset.png "'Train' prepped for modeling")<br>
 
 ### 2. Classification
 
-<sup>5</sup>
+#### 2.1. Logistic Regression
+
+#### 2.2. Support Vector Classifier
+
+#### 2.3. K-nearest Neighbors
+
+#### 2.4. Random Forest
+
+#### 2.5. Best Scoring Model
+
+
 
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
