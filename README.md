@@ -108,13 +108,23 @@ I looked at a lot of multivariate relationships and included two figures that I 
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_sex.png "Age, Sex, Survival")<br>
 
-**Figure 13.** The influence of title - a rough estimate of age and sex - and class on passenger survival.
+**Figure 13.** The influence of title - a rough estimate of age and sex - and class on passenger survival.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/title_class.png "Title, Class, Survival")<br>
 
-## <div align="center">Pre-processing</div>
+I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
 
 ## <div align="center">Modeling</div>
+Once the dataset had been thoroughly explored and cleaned, I began modeling. My goal was to build a model that could accurately predict the fate of a passenger on the Titanic. Obviously there were some unquantified forces at work in the real event, so I set a goal of 80% model accuracy.<br>
+
+### 1. Pre-processing
+I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
+
+**Figure 14.** A sample from the streamlined 'train' set, pre-scaling.<br>
+
+![alt_text]()<br>
+
+### 2. Classification
 
 <sup>5</sup>
 
