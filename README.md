@@ -55,15 +55,19 @@ I concluded by exploring how features were related to the target, 'Survived', an
 
 **Figure 6.** Correlation coefficients for linear relationships between features.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/corr_heatmap2.png "Correlation Heatmap")<br>
 
-Several features were strongly correlated (e.g. GroupSize, FamilySize, and IsAlone). I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
+Several features were strongly correlated, introducing collinearity into the model. I explored them further to determine which were appropriate to keep, drop, or engineer for analysis.<br>
 
-**Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.
+**Figure 7.** A swarm plot of deck and cabin assignments as well as the fate of their occupants.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck2.png "Deck and Cabin Assignments")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/cabin_deck2.png "Deck and Cabin Assignments")<br>
 
 A passenger's cabin assignment had little impact on their fate. Considering 'Cabin' and 'Deck' were unknown for ~80% of passengers in the dataset, I decided to drop these features from the analysis.<br>
+
+**Figure 8.** Survival rate based on various criteria describing a passengers connections on-board.<br>
+
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/partysize_plot.png "Party Info Plot")<br>
 
 ## <div align="center">Modeling</div>
 
