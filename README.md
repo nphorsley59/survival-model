@@ -84,6 +84,7 @@ A passenger's cabin assignment had little impact on their fate. Considering 'Cab
 I found that being alone or being in a group of more than four seemed to decrease a passenger's chance of surviving. I engineered a new feature, 'Connections', and binned it based on these findings (group size of 1, 2-4, and >4).
 
 #### 3.2. Complete 'Age'
+Passenger age was unknown for ~20% of the dataset. I grouped passengers with known age by 'Sex', 'Title', and 'Class' - features correlated with 'Age' - and calculated the median age for each combination. Then, to complete 'Age', I filled all passenger records of unknown age with the appropriate group median (matching 'Sex', 'Title' and 'Class').
 
 #### 3.3. Address 'Fare' Distribution
 While examining 'Fare' and how it related to other features, I noted two problems:<br>
