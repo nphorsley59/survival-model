@@ -102,14 +102,15 @@ While examining 'Fare' and how it related to other features, I noted two problem
 From this, I concluded that the fare for shared tickets must be a lump sum rather than an individual fare. I addressed this by dividing 'Fare' by 'GroupSize'. I also concluded that passengers with a ticket fare of $0.00 were crew members. They were all middle-aged males and almost all of them died. I addressed this by assigning them a new 'Class'.<br>
 
 #### 3.4. Multivariate Relationships
+I looked at a lot of multivariate relationships and included two figures that I found particularly interesting/informative. The age and sex of a passenger were strong predictors of survival; however, on top of that, class was arguably even more important. Age and sex can be condensed into title to show the relationship with class. I found this complex web of influence very interesting.
 
-**Figure 12.** text
+**Figure 12.** Violin plot showing how the age and sex of a passenger influenced their chance of survival.<br>
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/title_class.png "Title, Class, Survival")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_sex.png "Age, Sex, Survival")<br>
 
-**Figure 13.** text
+**Figure 13.** Title and class had a strong influence on passenger survival.
 
-![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_sex.png "Age, Sex, Survival")
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/title_class.png "Title, Class, Survival")<br>
 
 ## <div align="center">Pre-processing</div>
 
