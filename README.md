@@ -105,11 +105,11 @@ From this, I concluded that the fare for shared tickets must be a lump sum rathe
 
 **Figure 12.** text
 
-![alt_text]()
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/title_class.png "Title, Class, Survival")
 
 **Figure 13.** text
 
-![alt_text]()
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/age_sex.png "Age, Sex, Survival")
 
 ## <div align="center">Pre-processing</div>
 
