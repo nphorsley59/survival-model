@@ -125,8 +125,11 @@ I prepared the dataset for modeling by dropping uninformative columns, encoding 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/final_dataset.png "'Train' prepped for modeling")<br>
 
 ### 2. Classification
+I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree. I used the training set (from 'train' in pre-processing) to fit the model and the testing set to predict survival and score model accuracy (classification_report()).<br>
 
+**Figure 15.** Code used to fit and score a Logistic Regression model.<br>
 
+![alt_text]()<br>
 
 ### 3. Ensemble Learning
 
