@@ -126,15 +126,13 @@ I prepared the dataset for modeling by dropping uninformative columns, encoding 
 
 ### 2. Classification
 
-#### 2.1. Logistic Regression
 
-#### 2.2. Support Vector Classifier
 
-#### 2.3. K-nearest Neighbors
+### 3. Ensemble Learning
 
-#### 2.4. Random Forest
 
-#### 2.5. Best Scoring Model
+
+### 4. Final Predictions
 
 
 
