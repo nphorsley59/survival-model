@@ -131,11 +131,18 @@ I tested a range of classification algorithms, including Logistic Regression, Su
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/log_reg_code.png "Logistic Regression Code")<br>
 
+**Figure 16.** Table of classification model results<br>
+
+![alt_text]()<br>
+
 ### 3. Ensemble Learning
 
 
 
 ### 4. Final Predictions
+The best model, using an algorithm, scored 85+% accuracy in cross-validation tests. It was better at predicting death than survival and struggled the most with false negatives.<br>
+
+**Figure 18.** Final Predictions<br>
 
 
 
