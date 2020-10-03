@@ -129,7 +129,7 @@ I tested a range of classification algorithms, including Logistic Regression, Su
 
 **Figure 15.** Code used to fit and score a Logistic Regression model.<br>
 
-![alt_text]()<br>
+![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/log_reg_code.png "Logistic Regression Code")<br>
 
 ### 3. Ensemble Learning
 
