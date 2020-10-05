@@ -131,6 +131,10 @@ I tested a range of classification algorithms, including Logistic Regression, Su
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/log_reg_code.png "Logistic Regression Code")<br>
 
+**Figure 16.** Decision Boundary from Voting Classifier for 'Fare' and 'Age'. Only passengers that died are shown.<br>
+
+![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/decision_boundary_death.png "Decision Boundary)<br>
+
 **Figure 16.** Table of classification model results<br>
 
 ![alt_text]()<br>
