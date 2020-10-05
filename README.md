@@ -140,7 +140,7 @@ I tested a range of classification algorithms, including Logistic Regression, Su
 ![alt_text]()<br>
 
 ### 3. Ensemble Learning
-
+I also used ensemble learning to try to improve the accuracy of my predictions. Specifically, I used a Random Forest algorithm and a Voting Classifier.
 
 
 ### 4. Final Predictions
