@@ -3,6 +3,7 @@
 ## <div align="center">Table of Contents</div>
 * [Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview)
 * [Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis)
+  * [Explore Data Structure](https://github.com/nphorsley59/Passenger_Survival#1-explore-data-structure)
 * [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)
 * [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
