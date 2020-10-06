@@ -14,12 +14,12 @@
 * [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
-Skills Demonstrated: *logistic regression, random forest, exploratory data analysis, feature engineering, text analysis*<br/>
-Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, numpy, regex, seaborn*<br/>
+Skills Demonstrated: *classification, ensemble learning, hyperparameter tuning, exploratory data analysis, feature engineering*<br/>
+Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, matplotlib, numpy, regex, sklearn, seaborn*<br/>
 
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
 
-Points of Interest:<br>
+**Points of Interest:**<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Explore Data Structure
@@ -122,7 +122,7 @@ I looked at a lot of multivariate relationships and included two figures that I 
 I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
 
 ## <div align="center">Modeling</div>
-Once the dataset had been thoroughly explored and cleaned, I began modeling. My goal was to build a model that could accurately predict the fate of a passenger on the Titanic. Obviously there were some unquantified forces at work in the real event, so I set a goal of 80% model accuracy. I used logistic regression, SVM, KNN, and random forest algorithms<sup>5</sup>. Model optimization (grid search, boosting, stacking, etc.) is a work in progress.<br>
+My goal was to build a model that could accurately predict the fate of a passenger on the Titanic. Considering the simplicity of the dataset and the unquantifiable forces at play in the real event, I set a goal of 80% model accuracy.<br>
 
 ### 1. Pre-processing
 I prepared the dataset for modeling by dropping uninformative columns, encoding all non-integer/non-float dtypes, splitting 'train' into a training and testing set for cross-validation, and scaling the data.<br>
