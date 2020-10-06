@@ -136,28 +136,33 @@ I prepared the dataset for modeling by dropping uninformative columns, encoding 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/train_test_scale.png "Split and Scale")<br>
 
 ### 2. Classification
-I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree. I used the training set (from 'train' in pre-processing) to fit the model and the testing set to predict survival and score model accuracy (classification_report()).<br>
+I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree. I used the training set to fit the model and the testing set to predict survival and score model accuracy (classification_report()). I also used GridSearchCV() to tune the hyperparameters for each model.<br>
 
-**Figure 15.** Code used to fit and score a Logistic Regression model.<br>
+**Figure 16.** Code used to fit and score a Logistic Regression model.<br>
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/log_reg_code.png "Logistic Regression Code")<br>
 
-**Figure 16.** Decision Boundary from Voting Classifier for 'Fare' and 'Age'. Only passengers that died are shown.<br>
+**Figure 17.** A grid search with cross-validation to determine the best hyperparameters for the K-nearest Neighbors model.<br>
+
+![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/grid_search.png "Tuning Hyperparameters")<br>
+
+### 3. Ensemble Learning
+I used ensemble learning to construct models with the aggregate knowledge of many simpler models. Specifically, I used Random Forest (many Decision Trees) and a Voting Classifier (a mix of classification algorithms). I then scored and compared my models based on precision, recall, and accuracy.<br>
+
+**Figure 18.** The decision Boundary from Voting Classifier for 'Fare' and 'Age'. Only passengers that died are shown.<br>
 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/decision_boundary_death.png "Decision Boundary")<br>
 
-**Figure 16.** Table of classification model results<br>
+**Figure 19.** A bar chart of model accuracy; one aspect of model selection.<br>
 
-![alt_text]()<br>
-
-### 3. Ensemble Learning
-I also used ensemble learning to try to improve the accuracy of my predictions. Specifically, I used a Random Forest algorithm and a Voting Classifier.
-
+![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/model_selection.png "Model Selection")<br>
 
 ### 4. Final Predictions
-The best model, using an algorithm, scored 85+% accuracy in cross-validation tests. It was better at predicting death than survival and struggled the most with false negatives.<br>
+The most balanced, high-scoring model used a Voting Classifier to predict passenger survival to 83% accuracy. It was better at predicting death than survival and struggled the most with false negatives.<br>
 
-**Figure 18.** Final Predictions<br>
+**Figure 20.** A normalized confusion matrix for the Voting Classifier model.<br>
+
+![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/conf_matrix.png "Confusion Matrix")
 
 
 
