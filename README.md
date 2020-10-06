@@ -156,7 +156,7 @@ I used ensemble learning to construct models with the aggregate knowledge of man
 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/decision_boundary_death.png "Decision Boundary")<br>
 
-**Figure 20.** A bar chart showing model accuracy, one of several scores used to determine model selection.<br>
+**Figure 20.** A bar chart showing model accuracy, one of several scores used in model selection.<br>
 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/model_selection.png "Model Selection")<br>
 
