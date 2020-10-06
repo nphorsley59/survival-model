@@ -11,6 +11,7 @@
   2. [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)<br>
   3. [Ensemble Learning](https://github.com/nphorsley59/Passenger_Survival#3-ensemble-learning)<br>
   4. [Predictions](https://github.com/nphorsley59/Passenger_Survival#4-predictions)<br>
+* [Concluding Thoughts](https://github.com/nphorsley59/Passenger_Survival/blob/master/README.md#concluding-thoughts)
 * [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
@@ -167,7 +168,7 @@ The most balanced, high-scoring model used a Voting Classifier to predict passen
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/conf_matrix.png "Confusion Matrix")
 
 ## <div align="center">Concluding Thoughts</div>
-
+This project was my first full-length analysis using classification algorithms and ensemble learning. I learned some new tools for visualizing these models and had a lot of fun seeing how different hyperparameters effected the predictions. I'm sure there is room for incremental improvement in this analysis, in both feature engineering and modeling, but I was generally quite satisfied with my results. Most other Kaggle submissions that used cross-verification (controls for overfitting) predicted survival to 75-80% accuracy. Moving forward, I'd like to work with other ensemble learning techniques, such as Gradient Boosting and stacking, and improve my EDA process to include a principle components analysis. Thanks for reading!<br>
 
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
