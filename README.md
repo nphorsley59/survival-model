@@ -7,10 +7,10 @@
   2. [Clean and Organize](https://github.com/nphorsley59/Passenger_Survival#2-clean-and-organize)<br>
   3. [Examine Relationships](https://github.com/nphorsley59/Passenger_Survival#3-examine-relationships)<br>
 * [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)<br>
-  * [Pre-processing](https://github.com/nphorsley59/Passenger_Survival#1-pre-processing)<br>
-  * [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)<br>
-  * [Ensemble Learning](https://github.com/nphorsley59/Passenger_Survival#3-ensemble-learning)<br>
-  * [Predictions](https://github.com/nphorsley59/Passenger_Survival#4-predictions)<br>
+  1. [Pre-processing](https://github.com/nphorsley59/Passenger_Survival#1-pre-processing)<br>
+  2. [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)<br>
+  3. [Ensemble Learning](https://github.com/nphorsley59/Passenger_Survival#3-ensemble-learning)<br>
+  4. [Predictions](https://github.com/nphorsley59/Passenger_Survival#4-predictions)<br>
 * [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
