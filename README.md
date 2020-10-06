@@ -19,8 +19,6 @@ Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, matplotl
 
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
 
-**Points of Interest:**<br>
-
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Explore Data Structure
 I began by learning some basics about the dataset (Figure 1). I wanted to know its shape (shape()), its column names (columns()), and its contents (sample(), describe(), info()).<br>
