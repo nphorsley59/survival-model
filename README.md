@@ -1,16 +1,16 @@
 # <div align="center">Classifying Passenger Survival</div>
 
 ## <div align="center">Table of Contents</div>
-[Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview)
-[Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis)
-  * [Explore Data Structure](https://github.com/nphorsley59/Passenger_Survival#1-explore-data-structure)
-  * [Clean and Organize](https://github.com/nphorsley59/Passenger_Survival#2-clean-and-organize)
-  * [Examine Relationships](https://github.com/nphorsley59/Passenger_Survival#3-examine-relationships)
-[Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)
-  * [Pre-processing](https://github.com/nphorsley59/Passenger_Survival#1-pre-processing)
-  * [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)
-  * [Ensemble Learning](https://github.com/nphorsley59/Passenger_Survival#3-ensemble-learning)
-  * [Predictions](https://github.com/nphorsley59/Passenger_Survival#4-predictions)
+[Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview)<br>
+[Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis)<br>
+  * [Explore Data Structure](https://github.com/nphorsley59/Passenger_Survival#1-explore-data-structure)<br>
+  * [Clean and Organize](https://github.com/nphorsley59/Passenger_Survival#2-clean-and-organize)<br>
+  * [Examine Relationships](https://github.com/nphorsley59/Passenger_Survival#3-examine-relationships)<br>
+[Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)<br>
+  * [Pre-processing](https://github.com/nphorsley59/Passenger_Survival#1-pre-processing)<br>
+  * [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)<br>
+  * [Ensemble Learning](https://github.com/nphorsley59/Passenger_Survival#3-ensemble-learning)<br>
+  * [Predictions](https://github.com/nphorsley59/Passenger_Survival#4-predictions)<br>
 [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
