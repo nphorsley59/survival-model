@@ -131,6 +131,10 @@ I prepared the dataset for modeling by dropping uninformative columns, encoding 
 
 ![alt_text](https://github.com/nphorsley59/Predicting_Passenger_Survival/blob/master/Figures/final_dataset.png "'Train' prepped for modeling")<br>
 
+**Figure 15.** The code used to split 'train' and scale the data for modeling.<br>
+
+![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/train_test_scale.png "Split and Scale")<br>
+
 ### 2. Classification
 I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree. I used the training set (from 'train' in pre-processing) to fit the model and the testing set to predict survival and score model accuracy (classification_report()).<br>
 
