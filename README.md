@@ -136,7 +136,7 @@ I prepared the dataset for modeling by dropping uninformative columns, encoding 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/train_test_scale.png "Split and Scale")<br>
 
 ### 2. Classification
-I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree. I used the training set to fit the model and the testing set to predict survival and score model accuracy (classification_report()). I also used GridSearchCV() to tune the hyperparameters for each model.<br>
+I tested a range of classification algorithms, including Logistic Regression, Support Vector Machine, K-nearest Neighbors, and Decision Tree<sup>5</sup>. I used the training set to fit the model and the testing set to predict survival and score model accuracy (classification_report()). I also used GridSearchCV() to tune the hyperparameters for each model.<br>
 
 **Figure 16.** Code used to fit and score a Logistic Regression model.<br>
 
@@ -163,8 +163,6 @@ The most balanced, high-scoring model used a Voting Classifier to predict passen
 **Figure 20.** A normalized confusion matrix for the Voting Classifier model.<br>
 
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/conf_matrix.png "Confusion Matrix")
-
-
 
 ## <div align="center">Resources</div>
 <sup>1</sup> https://www.kaggle.com/c/titanic <br/>
