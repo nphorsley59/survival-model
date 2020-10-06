@@ -18,7 +18,7 @@
 Skills Demonstrated: *classification, ensemble learning, hyperparameter tuning, EDA, feature engineering*<br/>
 Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, matplotlib, numpy, regex, sklearn, seaborn*<br/>
 
-Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price. My top model scored 83% accuracy in cross-validation using a Soft Voting Classifier, which would put me in the top 5% of Kaggle submissions.<br>
+Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price. My top model scored 83% accuracy in cross-validation using a Soft Voting Classifier, which would put me in the top 5% of Kaggle submissions. For a more in-depth look at this analysis, please refer to my Jupyter Notebook.<br>
 
 ## <div align="center">Exploratory Data Analysis</div>
 ### 1. Explore Data Structure
