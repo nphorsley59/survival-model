@@ -3,9 +3,9 @@
 ## <div align="center">Table of Contents</div>
 * [Project Overview](https://github.com/nphorsley59/Predicting_Passenger_Survival#project-overview)<br>
 * [Exploratory Data Analysis](https://github.com/nphorsley59/Predicting_Passenger_Survival#exploratory-data-analysis)<br>
-  1. [Explore Data Structure](https://github.com/nphorsley59/Passenger_Survival#1-explore-data-structure)<br>
-  2. [Clean and Organize](https://github.com/nphorsley59/Passenger_Survival#2-clean-and-organize)<br>
-  3. [Examine Relationships](https://github.com/nphorsley59/Passenger_Survival#3-examine-relationships)<br>
+  1. [Data Structure](https://github.com/nphorsley59/Passenger_Survival#1-explore-data-structure)<br>
+  2. [Cleaning and Organization](https://github.com/nphorsley59/Passenger_Survival#2-clean-and-organize)<br>
+  3. [Feature Relationships](https://github.com/nphorsley59/Passenger_Survival#3-examine-relationships)<br>
 * [Modeling](https://github.com/nphorsley59/Predicting_Passenger_Survival#modeling)<br>
   1. [Pre-processing](https://github.com/nphorsley59/Passenger_Survival#1-pre-processing)<br>
   2. [Classification](https://github.com/nphorsley59/Passenger_Survival#2-classification)<br>
