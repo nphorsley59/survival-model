@@ -14,7 +14,7 @@
 * [Resources](https://github.com/nphorsley59/Predicting_Passenger_Survival#resources)<br>
 
 ## <div align="center">Project Overview</div>
-Skills Demonstrated: *classification, ensemble learning, hyperparameter tuning, exploratory data analysis, feature engineering*<br/>
+Skills Demonstrated: *classification, ensemble learning, hyperparameter tuning, EDA, feature engineering*<br/>
 Libraries and Programs: *Python, Jupyter Notebook, pandas, pivot_table, matplotlib, numpy, regex, sklearn, seaborn*<br/>
 
 Using the Titanic competition dataset available on Kaggle<sup>1</sup>, I created a model to predict which passengers would survive the 1912 sinking of the Titanic. The dataset included passenger attributes such as Name, Age, Sex, and Class, as well as information about their trip, such as their Cabin, Embarkment Location, and Ticket Price.<br>
