@@ -161,7 +161,7 @@ I used ensemble learning to construct models with the aggregate knowledge of man
 ![alt_text](https://github.com/nphorsley59/Passenger_Survival/blob/master/Figures/model_selection.png "Model Selection")<br>
 
 ### 4. Final Predictions
-The most balanced, high-scoring model used a Voting Classifier to predict passenger survival to 83% accuracy. It was better at predicting death than survival and struggled the most with false negatives.<br>
+The most balanced, high-scoring model used a Voting Classifier to predict passenger survival to 83% accuracy. It was better at predicting death than survival and struggled the most with false negatives. This model was used to predict survival in the 'test' set for submission.<br>
 
 **Figure 21.** A normalized confusion matrix for the Voting Classifier model.<br>
 
